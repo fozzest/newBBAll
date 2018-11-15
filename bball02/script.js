@@ -235,7 +235,7 @@ if( json['resultSets'][0]['rowSet'][i][10] == "Made Shot"){
 
 
        const newLi = document.createElement('li');
-    newLi.innerHTML = `<p><b>${makeMiss}</b> From Distance of <b>${distance} ft</b>.//WIPWIPWIP//</p>`;
+    newLi.innerHTML = `<p><b>${makeMiss}</b> From Distance of <b>${distance} ft</b>.</p>`;
      studentList.appendChild(newLi);
 
 
